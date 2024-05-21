@@ -1,0 +1,19 @@
+{
+  "name": "cypresstestnew",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:e2e:headless": "cypress run --config-file cypress.config.js",
+    "test:e2e:headed": "cypress open --config-file cypress.config.js",
+    "test:e2e:mobile:headless": "cypress run --config-file cypress-mobile.config.js",
+    "test:e2e:mobile:headed": "cypress open --config-file cypress-mobile.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.9.0",
+    "faker": "^5.5.3"
+  }
+}
